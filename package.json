@@ -1,0 +1,45 @@
+{
+  "name": "naruto-shippuden-trivia",
+  "version": "1.0.0",
+  "description": "An interactive, accessible trivia game about Naruto Shippuden with comprehensive questions and educational facts",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "serve": "npx http-server -p 8000",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "naruto",
+    "trivia",
+    "game",
+    "quiz",
+    "anime",
+    "accessibility",
+    "wcag",
+    "react",
+    "javascript",
+    "html5",
+    "css3"
+  ],
+  "author": "Naruto Trivia Developer",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/naruto-shippuden-trivia.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/naruto-shippuden-trivia/issues"
+  },
+  "homepage": "https://github.com/yourusername/naruto-shippuden-trivia#readme",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
